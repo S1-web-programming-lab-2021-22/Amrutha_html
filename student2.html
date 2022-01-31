@@ -1,0 +1,80 @@
+<Html>
+<head>
+<title>STUDENTS</title>
+</head>
+<body bgcolor='Beige'>
+<center><img src="ICET.jpg">
+<br>
+<form>
+<div class="container">
+<marquee><center><h1>STUDENTS REGISTRATION</h1></center></marquee><hr>
+<table align="center", cellpadding="10"style="margin-top:-300px;">
+<tr><td><b>First Name<b></td>
+<td><input type="text" name="firstname" placeholder="Firstname" size="30" required/></td>
+</tr>
+<tr><td><label><b>Last Name<b></label></td>
+<td><input type="text" name="lastname" placeholder="Lastname" size="30"required/></td>
+</tr>
+<br>
+<br>
+<div>
+<tr><td>
+<label><b>Course<b></label></td>
+<td><select>
+<option value="Course">&nbsp;Course</option>
+<option value="MCA">&nbsp;MCA</option> 
+<option value="BBA">&nbsp;BBA</option>  
+<option value="B.Tech">&nbsp;B.Tech</option>  
+<option value="MBA">&nbsp;MBA</option>    
+<option value="M.Tech">&nbsp;M.Tech</option>
+</select>
+</td>
+</tr>
+<br>
+<br>
+</div>
+
+<div>
+<tr><td><label><b>Gender:<b></label></td>
+<br>
+<td><input type="radio" value="Male" name="gender" checked>Male
+<input type="radio" value="Female" name="gender">Female
+<input type="radio" value="others" name="gender">Other
+</td></tr><br>
+<br>
+</div>
+
+<div>
+<tr><td><label><b>Phone:<b></label></td>
+<td><input type="number" name="country code" placeholder="Country code" value="+91" size="2"/>
+<input type="text" name="phone" placeholder="Phone" size="10" min="0000000000" max="9999999999" required/>
+</td>
+</tr>
+<br>
+<br>
+
+<tr><td><label><b>Current address:<b></label></td>
+<br>
+<td><textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea> 
+</td></tr>
+<br>
+<br>
+<tr><td><label for="email"><b>Email</b></label> </td> 
+<td><input type="text" placeholder="Enter Email" name="email" required></td>
+</tr>  
+<br>
+<br>
+<tr><td><label for="psw"><b>Password</b></label></td>  
+<td><input type="password" placeholder="Enter Password" name="psw" required></td>
+</tr>  
+<br>
+<br>
+<br>
+<tr><td><center><button type="submit" class="registerbtn" autofocus onclick="alert('registration successful!')">Register</button></center></td></tr>
+
+</body>
+</html>
+
+
+

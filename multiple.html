@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+h2{
+font-size : 30px;
+color : green;
+font-weight : bold;
+}
+</style>
+</head>
+
+<body>
+<center>
+<h2><u>multiple of 3 or 7</u></h2>
+<label> enter the number:  <input type="text" id="num"></label>
+<button onClick="multiple()">check</button>
+<p id="p"></p>
+
+
+<script>
+function multiple()
+{
+var x=document.getElementById("num").value;
+if((x%3==0) ||(x%7==0))
+{
+document.getElementById("p").innerHTML= x+" is multiple"
+}
+else
+{
+document.getElementById("p").innerHTML=x+" is not multiple"
+}
+}
+</script>
+</center>
+</body>
+</html>
+
+

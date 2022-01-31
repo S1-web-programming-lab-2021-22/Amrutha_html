@@ -1,0 +1,23 @@
+<Html>
+<head>
+<title>WEBSITE</title>
+</head>
+<body>
+<body bgcolor='Beige'>
+<h1><center><big><b>ILAHIA</b></h1>
+<h1><center><b>College of Engineering and Technology</b></h1>
+<h5><center><i>Approved by AICTE,New Delhi and Affliated to APJ Abdul Kalam Technological University</i></h5>
+<h6><center>Mulavoor Ilahia College Road, Mulavoor, Kerala 686673</h6>
+<marquee><center><h4 style="background-color:tomato">Admission started for the academic year 2021-22,Check out our latest professional courses</h4></style></center></marquee>
+<center><img src="ict.jpg">
+<tr><td><label><h1><b>Course<b></h1></label></td>
+<td><p ><a href="file:///home/mca/Desktop/MCAS1/web%20programming/student2.html" style="color:red" background-color="transparent"><b>MCA</p></td>
+<td><p ><a href="file:///home/mca/Desktop/MCAS1/web%20programming/student2.html"style="color:blue" background-color="transparent"><b>BBA</p></td>
+<td><p><a href="file:///home/mca/Desktop/MCAS1/web%20programming/student2.html" style="color:green"><b>B.TECH</p></td>
+<td><p ><a href="file:///home/mca/Desktop/MCAS1/web%20programming/student2.html"style="color:powerblue"><b>MBA</p></td>
+<td><p ><a href="file:///home/mca/Desktop/MCAS1/web%20programming/student2.html"style="color:tomato"><b>MSC</p></td>
+</center>
+<marquee><center><h1>Admission started for the academic year 2021-22</h1></center></marquee>
+</select>
+</body>
+</div>
